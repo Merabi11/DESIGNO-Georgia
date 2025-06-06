@@ -84,24 +84,23 @@ ul li a::after {
   margin: 0px auto;
 }
 
-.phone-text-section {
+.top-section {
   width: 100%;
-  height: 640px;
-  position: relative;
+  height: 252px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 15px;
-  padding: 60px 95px 0px 95px;
   background-color: #e7816b;
 }
 
 .text-content {
   width: 540px;
-  height: 350px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .text-content h1 {
@@ -113,42 +112,62 @@ ul li a::after {
   color: #fff;
 }
 
-.text-content button {
-  width: 152px;
-  height: 56px;
-  border: none;
-  font-size: 15px;
-  border-radius: 8px;
-  transition: all 0.4s linear;
-  cursor: pointer;
-  background-color: #fff;
+.values-card-container {
+  width: 100%;
+  height: 988px;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-value-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-value-div {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.value-1 {
+  width: 350px;
+  height: 478px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #fdf3f0;
+}
+
+.value-1 h2 {
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #e7816b;
+}
+
+.value-1 p {
   color: #333136;
 }
 
-.text-content button:hover {
-  background-color: #ffad9b;
-  color: #fff;
+.value-text {
+  width: 286px;
+  height: 94px;
+  margin: 0px 32px 32px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-
-.phone-div {
-  width: 281px;
-  height: 500px;
-  position: absolute;
-  right: 95px;
-  bottom: 0px;
-}
-
-.phone-div img {
-  width: 100%;
-  height: 100%;
-}
-
-/* left section */
 
 .design-section {
   width: 100%;
   max-width: 1111px;
-  height: 640px;
   margin-top: 160px;
   display: flex;
   justify-content: space-between;
@@ -156,52 +175,6 @@ ul li a::after {
 
 .design-section a {
   text-decoration: none;
-}
-
-.left {
-  width: 541px;
-  height: 640px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 15px;
-  transition: all 0.3s linear;
-  background-image: url('../images/Bitmap.png');
-}
-
-.left:hover {
-  opacity: 80%;
-}
-
-.web-design {
-  height: 94px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-}
-
-.web-design h1 {
-  font-size: 40px;
-  letter-spacing: 5px;
-  color: #ffffff;
-}
-
-.web-design p {
-  letter-spacing: 5px;
-  color: #ffffff;
-}
-
-/* end */
-
-/* right top section */
-
-.right {
-  width: 541px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .right-top {
@@ -212,7 +185,7 @@ ul li a::after {
   justify-content: center;
   border-radius: 15px;
   transition: all 0.3s linear;
-  background-image: url('../images/Bitmap\(1\).png');
+  background-image: url('../images/Bitmap.png');
 }
 
 .right-top:hover {
@@ -279,46 +252,6 @@ ul li a::after {
 }
 
 /* end */
-
-.values-card-container {
-  max-width: 1111px;
-  margin-top: 160px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.value-1 {
-  width: 350px;
-  height: 412px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.value-1 img {
-  width: 202px;
-  height: 202px;
-}
-
-.value-1 h2 {
-  font-size: 20px;
-  letter-spacing: 5px;
-  color: #333136;
-}
-
-.value-1 p {
-  color: #333136;
-}
-
-.value-text {
-  width: 350px;
-  height: 162px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 
 /* bottom section */
 
@@ -430,10 +363,6 @@ footer {
   justify-content: space-around;
 }
 
-/* end */
-
-/* footer bottom sectiobs paragraph */
-
 #footer-p1 {
   font-weight: bold;
   opacity: 50%;
@@ -482,10 +411,6 @@ footer {
   cursor: pointer;
   color: #ffffff;
 }
-
-/* end */
-
-/* footer social icons */
 
 .rigth-icons {
   width: 184px;
