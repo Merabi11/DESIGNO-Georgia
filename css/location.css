@@ -89,7 +89,7 @@ ul li a::after {
 /* main content */
 .main-content {
   max-width: 1111px;
-  height: 1042px;
+  height: 1200px;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -106,8 +106,10 @@ ul li a::after {
 .left-section {
   width: 730px;
   height: 326px;
+  border-radius: 15px;
   display: flex;
   justify-content: space-between;
+  background-color: #e7816b;
 }
 
 .left-div {
@@ -119,36 +121,55 @@ ul li a::after {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  font-size: 20px;
   transition: all 0.3s linear;
-  background: linear-gradient(to bottom, #fff8ea, #ffffff);
+  cursor: pointer;
+  background: linear-gradient(to bottom, #ffffff, #e7816b);
+}
+
+.left-div:hover {
+  scale: 0.9;
 }
 
 .left-div h2 {
-  font-size: 40px;
+  font-size: 35px;
   color: #e7816b;
 }
 
 #color {
   font-weight: bold;
+  font-size: 24px;
   color: #333136;
 }
 
 .texts-1 p {
-  font-size: 23px;
+  font-size: 20px;
   line-height: 1.5;
   color: #333136;
 }
 
 .right-div {
-  width: 370px;
+  width: 350px;
   height: 326px;
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s linear;
-  background: linear-gradient(to bottom, #fff8ea, #ffffff);
+  cursor: pointer;
+  background: linear-gradient(to bottom, #fff8e8, #e7816b);
+}
+
+.rigth-image {
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.rigth-image:hover {
+  scale: 1.05;
+}
+
+.right-div:hover {
+  scale: 0.9;
 }
 
 .rigth-image {

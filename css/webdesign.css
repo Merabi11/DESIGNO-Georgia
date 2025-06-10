@@ -147,18 +147,18 @@ ul li a::after {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
-  transition: all 0.5s linear;
+  transition: all 0.3s linear;
   background-color: #fdf3f0;
 }
 
 .value-1:hover {
-  background-color: #0b0b0b;
+  background-color: #e7816b;
 }
 
 .value-1 h2 {
   font-size: 20px;
   letter-spacing: 5px;
-  color: #e7816b;
+  color: #fcaf17;
 }
 
 .value-1 p {
