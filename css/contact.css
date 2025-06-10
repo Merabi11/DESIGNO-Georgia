@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: #e7816b;
+  color: #ffffff;
+}
+
 body {
   display: flex;
   justify-content: center;

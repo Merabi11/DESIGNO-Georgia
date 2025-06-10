@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: #e7816b;
+  color: #ffffff;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -133,6 +138,8 @@ ul li a::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #ffdfd8;
+  border-radius: 15px;
 }
 
 .left-img {
@@ -222,6 +229,8 @@ ul li a::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #ffdfd8;
+  border-radius: 15px;
 }
 
 .right-img2 {
