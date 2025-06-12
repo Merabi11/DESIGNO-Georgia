@@ -344,8 +344,8 @@ ul li a::after {
 }
 
 .text-div {
-  width: 459px;
-  height: 148px;
+  width: 520px;
+  gap: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

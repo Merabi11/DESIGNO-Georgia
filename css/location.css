@@ -109,7 +109,7 @@ ul li a::after {
   border-radius: 15px;
   display: flex;
   justify-content: space-between;
-  background-color: #e7816b;
+  background-color: #fff0ed;
 }
 
 .left-div {
@@ -123,7 +123,7 @@ ul li a::after {
   gap: 20px;
   transition: all 0.3s linear;
   cursor: pointer;
-  background: linear-gradient(to bottom, #ffffff, #e7816b);
+  background: linear-gradient(to bottom, #ffd3cb, #ffffff);
 }
 
 .left-div:hover {
@@ -138,7 +138,7 @@ ul li a::after {
 #color {
   font-weight: bold;
   font-size: 24px;
-  color: #333136;
+  color: #e7816b;
 }
 
 .texts-1 p {
@@ -156,7 +156,7 @@ ul li a::after {
   justify-content: center;
   transition: all 0.3s linear;
   cursor: pointer;
-  background: linear-gradient(to bottom, #fff8e8, #e7816b);
+  background: linear-gradient(to bottom, #ffd3cb, #ffffff);
 }
 
 .rigth-image {
@@ -194,8 +194,8 @@ ul li a::after {
 }
 
 .text-div {
-  width: 459px;
-  height: 148px;
+  width: 520px;
+  gap: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
